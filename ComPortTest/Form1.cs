@@ -38,7 +38,7 @@ namespace ComPortTest
 
     private void availablePorts_SelectedIndexChanged(object sender, EventArgs e)
     {
-
+      //
     }
 
     private void openPortButton_Click(object sender, EventArgs e)
