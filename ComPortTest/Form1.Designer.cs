@@ -40,6 +40,8 @@
       this.label1 = new System.Windows.Forms.Label();
       this.label2 = new System.Windows.Forms.Label();
       this.textBoxRead = new System.Windows.Forms.TextBox();
+      this.label3 = new System.Windows.Forms.Label();
+      this.label4 = new System.Windows.Forms.Label();
       ((System.ComponentModel.ISupportInitialize)(this.numericHValue)).BeginInit();
       ((System.ComponentModel.ISupportInitialize)(this.numericLValue)).BeginInit();
       this.SuspendLayout();
@@ -128,27 +130,27 @@
       // numericHValue
       // 
       this.numericHValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-      this.numericHValue.Location = new System.Drawing.Point(12, 80);
+      this.numericHValue.Location = new System.Drawing.Point(74, 80);
       this.numericHValue.Maximum = new decimal(new int[] {
             255,
             0,
             0,
             0});
       this.numericHValue.Name = "numericHValue";
-      this.numericHValue.Size = new System.Drawing.Size(234, 26);
+      this.numericHValue.Size = new System.Drawing.Size(172, 26);
       this.numericHValue.TabIndex = 9;
       // 
       // numericLValue
       // 
       this.numericLValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-      this.numericLValue.Location = new System.Drawing.Point(252, 80);
+      this.numericLValue.Location = new System.Drawing.Point(311, 80);
       this.numericLValue.Maximum = new decimal(new int[] {
             255,
             0,
             0,
             0});
       this.numericLValue.Name = "numericLValue";
-      this.numericLValue.Size = new System.Drawing.Size(256, 26);
+      this.numericLValue.Size = new System.Drawing.Size(197, 26);
       this.numericLValue.TabIndex = 10;
       // 
       // label1
@@ -179,11 +181,33 @@
       this.textBoxRead.Size = new System.Drawing.Size(410, 26);
       this.textBoxRead.TabIndex = 13;
       // 
+      // label3
+      // 
+      this.label3.AutoSize = true;
+      this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+      this.label3.Location = new System.Drawing.Point(12, 82);
+      this.label3.Name = "label3";
+      this.label3.Size = new System.Drawing.Size(56, 20);
+      this.label3.TabIndex = 14;
+      this.label3.Text = "HVAL:";
+      // 
+      // label4
+      // 
+      this.label4.AutoSize = true;
+      this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+      this.label4.Location = new System.Drawing.Point(252, 82);
+      this.label4.Name = "label4";
+      this.label4.Size = new System.Drawing.Size(53, 20);
+      this.label4.TabIndex = 15;
+      this.label4.Text = "LVAL:";
+      // 
       // Form1
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(520, 222);
+      this.Controls.Add(this.label4);
+      this.Controls.Add(this.label3);
       this.Controls.Add(this.textBoxRead);
       this.Controls.Add(this.label2);
       this.Controls.Add(this.label1);
@@ -220,6 +244,8 @@
     private System.Windows.Forms.Label label1;
     private System.Windows.Forms.Label label2;
     private System.Windows.Forms.TextBox textBoxRead;
+    private System.Windows.Forms.Label label3;
+    private System.Windows.Forms.Label label4;
   }
 }
 

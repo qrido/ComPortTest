@@ -81,7 +81,7 @@ namespace ComPortTest
           char c = (char)b[0];
           f = string.Format("{4} bytes: {1} {0} {2} {3}", ((int)(b[1])).ToString(), c.ToString(), ((int)(b[2])).ToString(), ((int)(b[3])).ToString(), num);
         }
-       
+
         textBoxSent.Invoke(new Action(delegate()
         {
           textBoxRead.Text = f;
