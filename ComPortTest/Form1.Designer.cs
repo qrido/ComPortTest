@@ -221,7 +221,7 @@
       this.Controls.Add(this.openPortButton);
       this.Controls.Add(this.comboBoxavailablePorts);
       this.Name = "Form1";
-      this.Text = "MotorDriverCommunication";
+      this.Text = "CMYK_3D Test";
       this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
       ((System.ComponentModel.ISupportInitialize)(this.numericHValue)).EndInit();
       ((System.ComponentModel.ISupportInitialize)(this.numericLValue)).EndInit();
